@@ -52,6 +52,13 @@
 
 #define SIO_LD_GPIO_NUVOTON	0x07	/* GPIO logical device */
 
+#ifndef GPIO_LINE_DIRECTION_IN
+#define GPIO_LINE_DIRECTION_IN	1
+#endif
+
+#ifndef GPIO_LINE_DIRECTION_OUT
+#define GPIO_LINE_DIRECTION_OUT	0
+#endif
 
 enum chips {
 	f71869,
